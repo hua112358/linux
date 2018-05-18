@@ -1,0 +1,17 @@
+1 linux文件结构
+  /:根目录
+  /bin:用户二进制文件
+  /sbin:系统二进制文件
+  /etc:系统配置文件
+  /usr/bin:用户程序二进制文件
+  /usr/sbin:系统管理员二进制文件
+  /lib:系统库
+  ~/.local/lib:用户局部库
+
+2 添加环境变量
+  sudo pip3 install jupyter
+  vim ~/.bashrc
+  # 添加 export PATH="$PAHT:~/.local/bin"
+  source ~/.bashrc
+
+ 
